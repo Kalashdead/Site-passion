@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    box-shadow: 0 0 100px #413d34, 0 0 6px rgba(232, 190, 107, .8);
+}
+
+
+
+.logoprincipal {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imglogoprincipal {
+    display: flex;
+    width: 160px;
+    justify-content: center
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0;
+
+
+}
+
+.navbarsecond {
+    display: flex;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Bender";
+    src: url("../fonts/Bender.otf") format("opentype");
+}
+
+.colornav {
+    color: rgb(131, 127, 128);
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Bender";
+}
+
+
+
+h1 {
+    padding-top: 32px;
+    padding-left: 1px;
+    display: flex;
+    justify-content: center;
+    font-family: "Bender";
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.bienvenue {
+
+    color: rgb(153, 118, 36)
+}
+
+
+
+.photoprincipal {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.bear {
+    width: 291px;
+    height: 350px;
+    object-fit: cover;
+    justify-content: space-around;
+    box-shadow: 0 0 100px #ff0000, 0 0 6px rgba(232, 190, 107, .8);
+    margin: 10px;
+
+}
+
+.usec {
+    margin: 10px;
+    width: 291px;
+    height: 350px;
+    box-shadow: 0 0 100px #0026ff, 0 0 6px rgba(232, 190, 107, .8);
+}
+
+.mapassiontarkov {
+    text-align: center;
+    font-family: "Bender";
+    text-shadow: 3px 1px 3px rgb(126, 125, 117);
+    box-shadow: 1px 1px 1px;
+
+}
+
+article p {
+
+    color: gray;
+}
+
+.sniper {
+
+    width: 100%
+}
+
+.sniperboxart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: 0, 0, 0, 0.3;
+    background-image: url(../img/Sniperguys.png);
+    border: solid black;
+    flex-direction: column;
+}
+
+.bossknigthimg {
+    margin-top: 12px;
+    width: 30%;
+    border: solid;
+    box-shadow: 0 0 100px #413d34, 0 0 6px rgba(254, 0, 0, 0.8);
+    margin-bottom: 20px;
+
+}
+
+
+.descriptif {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.divdescriptif h3 {
+    font-family: "Bender";
+    color: rgb(225, 169, 39);
+    text-shadow: 0 0 100px #584414, 0 0 6px hwb(0 0% 100%);
+    height: 25px;
+    margin: 10px;
+
+
+}
+
+.divdescriptif p {
+    font-family: "Bender";
+    color: rgb(190, 190, 166);
+    text-shadow: 0px 0px 100px #584414, -3px -1px 2px hwb(0 0% 100%);
+}
+
+
+.uspd {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row-reverse;
+    align-items: center
+}
+
+.divdescriptif {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
