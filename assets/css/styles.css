@@ -1,5 +1,5 @@
 body {
-    width: 80%;
+    width: 99%;
     margin: auto;
     background-color: black;
 }
@@ -23,7 +23,7 @@ header {
 }
 
 .imglogoprincipal:hover {
-    color: rgb(153, 118, 36) ;
+    color: rgb(153, 118, 36);
     transition: 1.5s;
     box-shadow: 0 0 100px #413d34, 0 0 6px rgb(153, 118, 36);
     border: none;
@@ -55,12 +55,12 @@ header {
     padding: 10px;
     text-decoration: none;
     font-family: "Bender";
-    
+
 }
 
-.colornav:hover{
+.colornav:hover {
 
-    color: rgb(153, 118, 36) ;
+    color: rgb(153, 118, 36);
     transition: 1.5s;
     box-shadow: 0 0 100px #413d34, 0 0 6px rgb(153, 118, 36);
     border-radius: 100%;
@@ -108,8 +108,8 @@ h1 {
 
 }
 
-.bear:hover{
-    transform:scale(1.02);
+.bear:hover {
+    transform: scale(1.02);
     transition: 0.9s;
     box-shadow: 0 0 200px #ff0000, 0 0 10px rgba(232, 190, 107, .8);
 }
@@ -121,8 +121,8 @@ h1 {
     box-shadow: 0 0 100px #0026ff, 0 0 6px rgba(232, 190, 107, .8);
 }
 
-.usec:hover{
-    transform:scale(1.02);
+.usec:hover {
+    transform: scale(1.02);
     transition: 0.9s;
     box-shadow: 0 0 200px #0026ff, 0 0 10px rgba(232, 190, 107, .8);
 }
@@ -146,7 +146,7 @@ article p {
 }
 
 .sniperboxart {
-    width: 100% ;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: 0, 0, 0, 0.3;
@@ -156,24 +156,24 @@ article p {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 90%;
-    
-    
-    
+
+
+
 }
 
 .bossknigthimg {
-    margin-top: 12px;
+    margin-top: 30px;
     width: 23%;
     border: solid;
     box-shadow: 0 0 100px #413d34, 0 0 6px rgba(254, 0, 0, 0.8);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
-.bossknigthimg:hover{
-    transform:scale(1.10);
+.bossknigthimg:hover {
+    transform: scale(1.10);
     transition: 0.4s;
-    text-shadow: 0 0 200px #070603, 10 10 200px rgba(4, 3, 2, 0.8) ;
+    text-shadow: 0 0 200px #070603, 10 10 200px rgba(4, 3, 2, 0.8);
 
 
 }
@@ -194,18 +194,18 @@ article p {
     height: 20px;
     margin: 30px;
     font-size: 30px;
-    
+
 
 
 }
 
-.divdescriptif h3:hover{
+.divdescriptif h3:hover {
 
-    transform:scale(1.10);
+    transform: scale(1.10);
     transition: 0.4s;
-    text-shadow: 0 0 200px #070603, 10 10 200px rgba(4, 3, 2, 0.8) ;
+    text-shadow: 0 0 200px #070603, 10 10 200px rgba(4, 3, 2, 0.8);
     border: none;
-    
+
 }
 
 .divdescriptif p {
@@ -236,10 +236,10 @@ article p {
     padding: 20px;
     width: 30%;
     align-content: center;
-    
+
 }
 
-.formulaire h3{
+.formulaire h3 {
     display: flex;
     font-family: "Bender";
     color: rgb(225, 169, 39);
@@ -250,22 +250,23 @@ article p {
     flex-direction: column;
 }
 
-.input{
+.input {
 
     font-family: "Bender";
     color: rgb(190, 190, 166);
     text-shadow: 0px 0px 100px #584414, -3px -1px 2px hwb(0 0% 100%);
-    font-size: 20px;
+    font-size: 29px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    top : 4px;
-    right : 34px;
+    top: 4px;
+    right: 34px;
     flex-direction: column;
     align-content: space-around;
+
 }
 
-.input label{
+.input label {
 
     display: flex;
     align-content: center;
@@ -276,28 +277,125 @@ article p {
 
 }
 
-.labelmargin{
+.labelmargin {
 
     padding: 20px;
+
 }
 
-#name{
+#name {
     font-family: "Bender";
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
-    width: 260px;
+    width: 600px;
     text-align: center;
 
+
 }
 
-#selecteur{
+#age {
 
     font-family: "Bender";
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
-    width: 100px;
+    width: 66px;
+}
+
+.checkinput {
+    font-family: "Bender";
+    color: rgb(190, 190, 166);
+    text-shadow: 0px 0px 100px #584414, -3px -1px 2px hwb(0 0% 100%);
+    font-size: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+#AccepterCGU {
+
+    width: 22px;
+
+}
+
+.bouton {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px
+}
+
+button {
+
+    width: 188px;
+    height: 50px;
+    font-family: "Bender";
+    background-color: #000000f3;
+    border: none;
+    color: rgb(225, 169, 39);
+    font-size: 22px;
+    
+}
+
+button:hover{
+
+    transform: scale(1.02);
+    transition: 0.9s;
+    box-shadow: 0 0 100px #413d34, 0 0 6px rgba(232, 190, 107, .8);
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 100px #413d34, 0 0 6px rgba(232, 190, 107, .8);
+    display: flex;
+
+}
+
+.divfooter p{
+    
+    font-family: "Bender";
+    color: rgb(225, 169, 39);
+
+}
+
+.mentionlégal img{
+    display: flex;
+    width: 30px;
+    height: 45px;
+    flex-direction: row;
+}
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    object-fit: cover;
+}
+
+.reseaux img{
+
+    width: 45px;
+    height: 45px;
+}
+
+.divfooter{
+    margin: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bs{
+
+    width: 150px;
+    height: auto;
 }

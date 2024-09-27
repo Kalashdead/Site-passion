@@ -91,7 +91,7 @@
 
                 <div class="descriptif">
 
-                    <img src="assets/img/boss tarkov" alt="USP image" class="bossknigthimg">
+                    <img src="assets/img/boss tarkov.png" alt="" class="bossknigthimg">
                     <div class="divdescriptif">
                         <h3> Nos Pire Enemnis </h3>
                         <p>Dans tarkov vous rencontrerez des personnes issue d'experience par TerraGroup <br>
@@ -102,31 +102,79 @@
                 </div>
             </article>
 
-            <form action="Formulaire email"></form>
-            <article class="formulaire">
-                <h3>Recevez des nouvelles de votre Actu Tarkov</h3>
+            <form action="Formulaire email">
+                <article class="formulaire">
+                    <h3>Recevez des nouvelles de votre Actu Tarkov</h3>
 
-                <div class="input">
-                    <label for="Nom"> Nom </label class=labelmargin>
-                    <input type="text" id="name" name="second-name" placeholder="Veuillez entré votre Nom" />
+                    <div class="input">
+                        <label for="Nom"> Nom </label class=labelmargin>
+                        <input type="text" id="name" name="second-name" placeholder="Veuillez entré votre Nom" />
 
+                        <br>
+                        <label for="Nom"> prénom </label class=labelmargin>
+                        <input type="text" id="name" name="second-name" placeholder="Veuillez entré votre Prénom" />
+                    </div>
                     <br>
-                    <label for="Nom"> prénom : </label class=labelmargin>
-                    <input type="text" id="name" name="second-name" placeholder="Veuillez entré votre Prénom" />
-                </div>
-                <br>
-                <div class="input">
-                    <label for="Nom">Âges</label class=labelmargin>
-                    <input type="number">
-                </div>
+                    <div class="input">
+                        <label for="age">Âges</label class=labelmargin>
+                        <input type="number" id="age" name="age" min="18" max="99" maxlength="2" placeholder="Age" />
+                    </div>
+                    <br>
+                    <div class="input">
+                        <label for="email">Votre Mail</label class=labelmargin>
+                        <input type="email" id="name" name="email" size="35" placeholder="Veuillez entré votre Email" />
+                    </div>
+                    <br>
+                    <div class="checkinput">
+
+                        <input type="checkbox" id="AccepterCGU" name="CGU" value="contract">
+                        <label for="CGU" class="labelmargin"> Conditions générales d'utilisation d'un site internet
+                            (CGU)</label>
+                    </div>
+                    <div class="checkinput">
+
+                        <input type="checkbox" id="AccepterCGU" name="CGU" value="contract">
+                        <label for="CGU" class="labelmargin"> Je shouaite recevoir des articles par d'autres site web
+                            (EFT)</label>
+                    </div>
+                    <br>
+                    <div class="bouton">
+                        <button type="reset" value="reset"> Effacer les données</button>
+                        <button type="submit" value="submit"> Envoyer les données</button>
+                    </div>
+
+            </form>
+
 
             </article>
 
 
         </section>
+
     </main>
 
 
+    <footer>
+        <div class="divfooter">
+            <p>copyrigth 2024 © crée par : Anthony Gattuso | <a
+                    href="https://www.economie.gouv.fr/entreprises/site-internet-mentions-obligatoires" class="mentionlégal">Mention
+                    Légals</a>
+            </p>
+            <div class="reseaux">
+            <a href="https://discord.com/invite/eftfr" class="reseau">
+                <img src="assets/img/black discord.png" alt="discordtarkovfr" class="réseaux">
+            </a>
+            <a href="https://www.facebook.com/escapefromtarkov/" class="reseau">
+                <img src="assets/img/facebook.png" alt="facebookescapefromtarkov" class="réseaux"></a>
+            <a href="https://www.instagram.com/escapefromtarkov/?hl=fr">
+                <img src="assets/img/insta.png " alt=" instagramescapefromtarkov" class="réseaux">
+            </a>
+            <a href="https://www.battlestategames.com/" class="reseau">
+                <img src="assets/img/bs_logo.png" alt="logobattlestategame" class="réseaux" id="bs">
+            </a>
+        </div>
+        </div>
+    </footer>
 
 </body>
 
