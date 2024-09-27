@@ -283,7 +283,29 @@ article p {
 
 }
 
-#name {
+#firstname {
+    font-family: "Bender";
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    text-align: center;
+
+
+}
+#secondname {
+    font-family: "Bender";
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    text-align: center;
+
+
+}
+#email {
     font-family: "Bender";
     color: rgb(0, 0, 0);
     font-size: 30px;
@@ -323,6 +345,12 @@ article p {
 
 }
 
+#AccepterPUB {
+
+    width: 22px;
+
+}
+
 .bouton {
 
     display: flex;
@@ -351,7 +379,7 @@ button:hover{
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 10px;
     padding: 5px;
     box-shadow: 0 0 100px #413d34, 0 0 6px rgba(232, 190, 107, .8);
     display: flex;
