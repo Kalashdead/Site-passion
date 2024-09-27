@@ -351,7 +351,8 @@ button:hover{
 
 footer {
     width: 100%;
-    padding: 20px;
+    height: 100px;
+    padding: 5px;
     box-shadow: 0 0 100px #413d34, 0 0 6px rgba(232, 190, 107, .8);
     display: flex;
 
@@ -398,4 +399,11 @@ footer {
 
     width: 150px;
     height: auto;
+}
+
+
+.reseau:hover{
+    transform: scale(1.02);
+    transition: 0.9s;
+    box-shadow: 0 0 100px #413d34, 0 0 6px rgba(232, 190, 107, .8);
 }
