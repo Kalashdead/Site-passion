@@ -18,11 +18,23 @@ header {
 
 }
 
+
+
 section h1{
-    text-shadow: 1px 0px 100px rgba(232, 190, 107, .8), 2px 4px 20px rgb(218 165 32);
+    text-shadow: 2px -6px 20px rgb(218 196 30), 2px 4px 11px rgb(218 165 32);
     font-size: 60px ;
     border: none;
 }
+
+section h1:hover{
+
+    transform: scale(1.10);
+    transition: 0.5s;
+    text-shadow: 0 0 100px #dae507, 0 0 6px rgba(207, 201, 26, 0.8);
+
+}
+
+
 
 .imglogoprincipal {
     display: flex;
@@ -88,17 +100,10 @@ h1 {
 
 .bienvenue {
 
-    color: rgb(153, 118, 36);
+    color: rgb(218 196 30);;
     font-size: 35px;
+    text-shadow: 0 0 20px #d1a847, 0 0 6px rgb(153, 118, 36);
 }
-
-
-.paraprincipal{
-
-    text-align: center;
-    color: grey;
-}
-
 
 
 .photoprincipal {
@@ -108,10 +113,13 @@ h1 {
 }
 
 .photoprincipal p {
-
-    width: 20%;
+    font-family: "Bender";
+    color: rgb(190, 190, 166);
+    text-shadow: 1px 0px 100px rgba(232, 190, 107, .8), 0px 0px 10px rgb(255, 255, 255);
+    width: 40%;
     margin: auto;
-    font-size: 18px
+    font-size: 20px;
+    margin-bottom: 100px;
 }
 
 .bear {
@@ -121,6 +129,8 @@ h1 {
     justify-content: space-around;
     box-shadow: 0 0 100px #ff0000, 0 0 6px rgba(232, 190, 107, .8);
     margin: 10px;
+    
+    
 
 }
 
