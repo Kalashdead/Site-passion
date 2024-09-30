@@ -13,7 +13,15 @@ header {
 .logoprincipal {
     display: flex;
     justify-content: space-between;
+    
+    
 
+}
+
+section h1{
+    text-shadow: 1px 0px 100px rgba(232, 190, 107, .8), 2px 4px 20px rgb(218 165 32);
+    font-size: 60px ;
+    border: none;
 }
 
 .imglogoprincipal {
@@ -80,7 +88,15 @@ h1 {
 
 .bienvenue {
 
-    color: rgb(153, 118, 36)
+    color: rgb(153, 118, 36);
+    font-size: 35px;
+}
+
+
+.paraprincipal{
+
+    text-align: center;
+    color: grey;
 }
 
 
