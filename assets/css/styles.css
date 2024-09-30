@@ -30,7 +30,7 @@ section h1:hover{
 
     transform: scale(1.10);
     transition: 0.5s;
-    text-shadow: 0 0 100px #dae507, 0 0 6px rgba(207, 201, 26, 0.8);
+    text-shadow: 0 0 100px #dae507, 0 0 6px rgba(232, 228, 107, 0.8);
 
 }
 
@@ -175,7 +175,6 @@ article p {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: 0, 0, 0, 0.3;
     background-image: url(../img/Sniperguys.png);
     border: solid black;
     flex-direction: column;
@@ -191,7 +190,7 @@ article p {
     margin-top: 30px;
     width: 23%;
     border: solid;
-    box-shadow: 0 0 100px #413d34, 0 0 6px rgba(254, 0, 0, 0.8);
+    box-shadow: 0 0 100px #413d34, 0 0 6px rgba(254, 0, 0.8);
     margin-bottom: 30px;
 
 }
@@ -199,7 +198,7 @@ article p {
 .bossknigthimg:hover {
     transform: scale(1.10);
     transition: 0.4s;
-    text-shadow: 0 0 200px #070603, 10 10 200px rgba(4, 3, 2, 0.8);
+    text-shadow: 0 0 200px #070603, 0 0 200px rgba(4, 3, 0.8);
 
 
 }
